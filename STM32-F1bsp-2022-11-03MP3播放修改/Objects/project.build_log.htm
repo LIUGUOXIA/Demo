@@ -1,0 +1,59 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.37.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: lgx Administrator, lgx, LIC=GMZI6-DNKD8-8T93P-MSW21-K4DUE-M0SHC
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.37.0.0
+Toolchain Path:  D:\softwarepath\keil5.37\core\ARM\AC5\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.37.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.56.1.0
+ 
+<h2>Project:</h2>
+D:\LGX_Project\STM32F103ZET6_NO-OS\STM32-F1bsp-2022-11-03MP3²¥·ÅÐÞ¸Ä\project.uvprojx
+Project File Date:  10/17/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\softwarepath\keil5.37\core\ARM\AC5\Bin'
+Build target 'Target 1'
+compiling bsp_led.c...
+.\BSP\inc\bsp_adc.h(124): warning:  #1295-D: Deprecated declaration bsp_InitAdc - give arg types
+  void bsp_InitAdc();
+.\user\vs1053\VS1053.h(189): warning:  #1295-D: Deprecated declaration initmemory - give arg types
+  void initmemory();
+BSP\src\bsp_led.c(221): warning:  #188-D: enumerated type mixed with another type
+  	for(Led_ModeVal = 0u; Led_ModeVal < LED_MODE_MAX_NUM; Led_ModeVal++)
+BSP\src\bsp_led.c(253): warning:  #188-D: enumerated type mixed with another type
+  	for(Led_ModeVal = 0u; Led_ModeVal < LED_MODE_MAX_NUM; Led_ModeVal++)
+BSP\src\bsp_led.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=27568 RO-data=186900 RW-data=324 ZI-data=15940  
+FromELF: creating hex file...
+".\Objects\project.axf" - 0 Error(s), 4 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.1.0.5.pack
+                Keil.STM32F1xx_DFP.1.0.5
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  D:/softwarepath/keil5.37/pack/Keil/STM32F1xx_DFP/1.0.5/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:05
+</pre>
+</body>
+</html>
